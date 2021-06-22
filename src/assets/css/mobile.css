@@ -1,0 +1,315 @@
+@media only screen and (max-width: 1440px) {
+    .course-box01,
+    .course-box02,
+    .course-box03 {
+        height: 180px;
+        padding: 20px;
+    }
+    .sidebar-brand {
+        margin-bottom: 25px;
+    }
+    .sidebar-brand {
+        padding: 25px 0;
+    }
+    .sidebar-link,
+    a.sidebar-link {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {}
+
+@media only screen and (max-width: 1199px) {
+    /* Experience page */
+    .video-btn {
+        right: 30px;
+        top: 0;
+    }
+    .experience-banner {
+        height: 665px;
+    }
+    .sub-banner-content-box {
+        padding-left: 40px;
+    }
+    .sub-banner-content-box h1 {
+        font-size: 60px;
+        line-height: 68px;
+    }
+    .tutorial-videos {
+        padding: 0 40px 40px;
+    }
+    .course-box01,
+    .course-box02,
+    .course-box03 {
+        padding: 10px 20px;
+        height: 140px;
+    }
+    /* Experience Detail */
+    .experience-detail-banner {
+        height: 500px;
+    }
+    .mobile-sidebar-btn {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .instructor-bio-box {
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+    .instructor-bio-box p br {
+        display: none;
+    }
+    .category-box {
+        margin-bottom: 50px;
+    }
+    .course-box01 .course-for,
+    .course-box02 .course-for,
+    .course-box03 .course-for {
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .sidebar-toggle {
+        display: block;
+        position: relative;
+        top: 10px;
+    }
+    .sidebar {
+        max-width: 130px;
+        min-width: 130px;
+        margin-left: -130px;
+    }
+    [data-simplebar] {
+        width: 130px;
+    }
+    .experience-banner,
+    .series-banner {
+        height: 540px;
+    }
+    .sub-banner-content-box {
+        padding-top: 140px;
+    }
+    .sub-banner-content-box h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .category-box {
+        margin-bottom: 50px;
+    }
+    .footer-box {
+        padding-top: 40px;
+    }
+    .copy-rights-list li {
+        padding-right: 10px;
+    }
+    .main-wrapper:after {
+        bottom: 10%;
+    }
+    /* Experience detail */
+    .mobile-sidebar-btn .sidebar-toggle {
+        display: block;
+    }
+    .instructor-bio-box p br {
+        display: none;
+    }
+    .inner-experience-detail .sub-banner-content-box p br {
+        display: none;
+    }
+    .pt-120 {
+        padding-top: 80px;
+    }
+    .pb-120 {
+        padding-bottom: 80px;
+    }
+    .instructor-bio-box h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .instructor-bio-box .activities-list li {
+        padding-right: 20px;
+    }
+    .instructor-bio-box {
+        padding-top: 15px;
+    }
+    .course-box01 .course-for,
+    .course-box02 .course-for,
+    .course-box03 .course-for {
+        padding-bottom: 30px;
+    }
+    .top-navigation {
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-full-width {
+        width: 100%;
+    }
+    .mmb-30 {
+        margin-bottom: 30px;
+    }
+    .sidebar,
+    [data-simplebar] {
+        max-width: 100px;
+        min-width: 100px;
+        margin-left: -100px;
+    }
+    .sidebar-brand {
+        padding: 15px 0;
+        margin-bottom: 30px;
+    }
+    .pt-120 {
+        padding-top: 50px;
+    }
+    .pb-120 {
+        padding-bottom: 50px;
+    }
+    .order02 {
+        order: 2;
+    }
+    .order01 {
+        order: 1;
+    }
+    .inner-experience-detail .sub-banner-content-box h1 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .instructor-image {
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+    .sidebar-link,
+    a.sidebar-link {
+        padding: 15px 0;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .series-banner .sub-banner-content-box p br {
+        display: none;
+    }
+    .right-side-top-navigation li {
+        padding: 0;
+    }
+    .sidebar-toggle {
+        margin-right: 0;
+    }
+    .nav-icon {
+        padding: 0 5px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .center-navigation li a {
+        margin: 0 10px;
+    }
+    .modal-wrapper {
+        left: 65%;
+        width: 90%;
+    }
+    .cancel-filters {
+        margin-right: 5px;
+    }
+    .sub-banner-content-box {
+        padding-left: 15px;
+    }
+    .sub-banner-content-box .activities-list li {
+        padding: 0 5px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .sub-banner-content-box h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .category-box {
+        margin-bottom: 30px;
+    }
+    .footer-box {
+        padding-top: 30px;
+    }
+    .copy-rights-list li {
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .copy-rights-list li:last-child {
+        padding-bottom: 0;
+    }
+    .footer-right-side {
+        text-align: center;
+    }
+    .experience-banner .center-navigation li a,
+    .series-banner .center-navigation li a {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .right-side-top-navigation li {
+        padding: 0;
+    }
+    br {
+        display: none;
+    }
+    .sidebar-toggle {
+        margin-right: 0;
+    }
+    .form__radio-button {
+        width: 20px;
+        height: 20px;
+    }
+    .workout-level-list li .form__radio-group .form__label-radio {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .workout-level-list li {
+        width: 14.9%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .nav-icon {
+        padding: 0 5px;
+    }
+    .sub-banner-content-box h1 {
+        font-size: 30px;
+        line-height: 36px;
+        padding-top: 10px;
+    }
+    .series-banner .sub-banner-content-box p {
+        line-height: 22px;
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .workout-level-list li {
+        width: 32.3%;
+    }
+    .mpb-30 {
+        padding-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .modal-wrapper {
+        left: 73%;
+    }
+    .mobile-block,
+    .cancel-filters,
+    .Show-results {
+        display: block !important;
+    }
+    .cancel-filters,
+    .Show-results {
+        text-align: center;
+    }
+    .cancel-filters {
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .modal-wrapper {
+        left: 85%;
+    }
+    .workout-level-list li {
+        width: 48.3%;
+    }
+}

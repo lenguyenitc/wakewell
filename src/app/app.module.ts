@@ -1,18 +1,34 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
+import { SwiperModule } from 'swiper/angular';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { TooltipModule } from 'ngx-bootstrap/tooltip';
+import { ModalModule } from 'ngx-bootstrap/modal';
+
 import { AppComponent } from './app.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceDetailComponent } from './experience-detail/experience-detail.component';
+import { SeriesComponent } from './series/series.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExperienceComponent,
+    ExperienceDetailComponent,
+    SeriesComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SwiperModule,
+    FontAwesomeModule,
+    BsDropdownModule.forRoot(),
+    TooltipModule.forRoot(),
+    ModalModule.forRoot()
   ],
-  providers: [],
+  providers: [Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

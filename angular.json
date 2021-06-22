@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "1704003c-1a66-4462-9ad2-5903fff5fff5"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -7,7 +10,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         },
         "@schematics/angular:application": {
           "strict": true
@@ -20,28 +23,41 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/wakewell",
+            "outputPath": "docs/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "inlineStyleLanguage": "sass",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/jquery-ui-dist/jquery-ui.min.css",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery-ui-dist/jquery-ui.min.js"
+            ],
+            "optimization": {
+              "scripts": true,
+              "styles": {
+                "minify": true,
+                "inlineCritical": false
+              },
+              "fonts": true
+            }
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -93,15 +109,20 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "inlineStyleLanguage": "sass",
+            "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/jquery-ui-dist/jquery-ui.min.css",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery-ui-dist/jquery-ui.min.js"
+            ]
           }
         }
       }
