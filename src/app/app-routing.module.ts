@@ -8,7 +8,8 @@ const routes: Routes = [
   { 
     path: 'experience', 
     component: ExperienceComponent,
-    data : {  
+    data : {
+      name: 'experience',
       title: 'Experience'  
     }  
   },
@@ -16,6 +17,7 @@ const routes: Routes = [
     path: 'experience-detail', 
     component: ExperienceDetailComponent,
     data : {  
+      name: 'experience-detail',
       title: 'Experience Detail'  
     }
   },
@@ -23,6 +25,7 @@ const routes: Routes = [
     path: 'series', 
     component: SeriesComponent,
     data : {  
+      name: 'series',
       title: 'Series'  
     }
   },

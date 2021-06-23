@@ -5,35 +5,35 @@
           <a class="sidebar-brand" href="index.html">
               <span class="align-middle"><img src="assets/images/site-logo.png" alt=""></span>
           </a>
-
+          okokokok {{path_active}}
           <ul class="sidebar-nav">
 
-              <li class="sidebar-item">
+              <li class="sidebar-item" routerLinkActive="active">
                   <a class="sidebar-link" href="index.html">
                       <div class="side-nav-icon01"></div>
                       <span class="align-middle">My Journey</span>
                   </a>
               </li>
 
-              <li class="sidebar-item active">
-                  <a class="sidebar-link" (click)="setTitle('Experience')" routerLink="/experience" routerLinkActive="active">
+              <li class="sidebar-item" routerLinkActive="active">
+                  <a class="sidebar-link" (click)="setTitle('Experience')" routerLink="/experience" routerLinkActive="link-active">
                     <div class="side-nav-icon02"></div> <span class="align-middle">Experience</span>
                   </a>
               </li>
 
-              <li class="sidebar-item">
-                <a class="sidebar-link" (click)="setTitle('Series')" routerLink="/series" routerLinkActive="active">
+              <li class="sidebar-item" routerLinkActive="active">
+                <a class="sidebar-link" (click)="setTitle('Series')" routerLink="/series" routerLinkActive="link-active">
                   <div class="side-nav-icon03"></div> <span class="align-middle">Series</span>
                 </a>
               </li>
 
-              <li class="sidebar-item">
+              <li class="sidebar-item" routerLinkActive="active">
                   <a class="sidebar-link" href="Schedule.html">
                       <div class="side-nav-icon04"></div> <span class="align-middle">Schedule</span>
                   </a>
               </li>
 
-              <li class="sidebar-item">
+              <li class="sidebar-item" routerLinkActive="active">
                   <a class="sidebar-link" href="#">
                       <div class="side-nav-icon05"></div> <span class="align-middle">Private Session</span>
                   </a>

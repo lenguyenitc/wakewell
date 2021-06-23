@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,12 +8,16 @@ import { Title } from '@angular/platform-browser';
 })
 export class AppComponent {
   title = 'wakewell';
-  content = 'index content';
+  path_active:string = '';
 
-  public constructor(private titleService: Title) { }
-
+  public constructor(private route: ActivatedRoute,private titleService: Title) { }
+  ngOnInit():void{
+    console.log(this.route.snapshot)
+    this.path_active = this.route.snapshot.data['name'];
+  }
   public setTitle(newTitle: string) {
     this.titleService.setTitle(newTitle);
+
   }
   
 }
