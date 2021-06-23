@@ -1,17 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import SwiperCore from 'swiper/core';
-import { faFacebookF, faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { BsModalService, BsModalRef } from 'ngx-bootstrap/modal';
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent implements OnInit {
-
-  faFacebookF = faFacebookF;
-  faLinkedinIn = faLinkedinIn;
-  faInstagram = faInstagram;
-  constructor() { }
+  
+  constructor(private modalService: BsModalService) {
+    
+  }
 
   ngOnInit(): void {
   }
@@ -22,5 +21,7 @@ export class ExperienceComponent implements OnInit {
   onSlideChange() {
     console.log('slide change');
   }
-
+  openModal(mymodal: any) {
+    this.modalService.show(mymodal);
+  }
 }

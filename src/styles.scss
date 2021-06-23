@@ -2,3 +2,8 @@
 @import 'assets/css/app.css';
 @import 'assets/css/style.css';
 @import 'assets/css/mobile.css';
+.modal{
+    &.show{
+        visibility: visible;
+    }
+}

@@ -1,0 +1,395 @@
+<nav class="navbar navbar-expand top-navigation navbar-light navbar-bg">
+    <a class="sidebar-toggle js-sidebar-toggle">
+        <i class="hamburger align-self-center"></i>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav center-navigation">
+            <li class="nav-item">
+                <a class="nav-link" href="#">{{header_title}}<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a (click)="openModal(filter)" class="nav-link modal-toggle" href="javascript:void(0)"><span><img src="assets/images/filter-icon.png" alt=""></span> Filter</a>
+            </li>
+        </ul>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="navbar-nav navbar-align right-side-top-navigation">
+            <li class="nav-item dropdown">
+                <a class="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                    <div class="position-relative notification-icon-box01">
+                        <figure><img src="assets/images/chat-icon-white.svg" alt=""></figure>
+                    </div>
+                </a>
+                <div class="dropdown-menu notfication-dd dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="messagesDropdown">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-icon dropdown-toggle" href="#" id="messagesDropdown" data-bs-toggle="dropdown">
+                    <div class="position-relative notification-icon-box01">
+                        <figure><img src="assets/images/heart-icon-white.svg" alt=""></figure>
+                    </div>
+                </a>
+                <div class="dropdown-menu notfication-dd dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="messagesDropdown">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded-circle" alt="Vanessa Tucker">
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-icon dropdown-toggle" href="#" id="alertsDropdown" data-bs-toggle="dropdown">
+                    <div class="position-relative notification-icon-box">
+                        <figure><img src="assets/images/bell-icon-white.svg" alt=""></figure>
+                        <span class="indicator"></span>
+                    </div>
+                </a>
+                <div class="dropdown-menu notfication-dd dropdown-menu-lg dropdown-menu-end py-0" aria-labelledby="alertsDropdown">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <figure><img src="assets/images/dd-nofification-img.png" alt=""></figure>
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <div class="client-int">
+                                        <div class="inner-client-int">
+                                            <div class="client-name secondary-font">LCh.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-2">
+                                    <div class="client-int">
+                                        <div class="inner-client-int">
+                                            <div class="client-name secondary-font">Ww.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="notification-heading secondary-font">Wake Well</div>
+                                    <div class="notification-detail secondary-font">We have updated ordering system...</div>
+
+                                </div>
+                                <div class="col-2">
+                                    <div class="notification-time secondary-font">30m ago</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#" data-bs-toggle="dropdown">
+                    <i class="align-middle" data-feather="settings"></i>
+                </a>
+
+                <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
+                    <img src="assets/images/avatar.jpg" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="notification-heading">Pandora Skyes</span>
+                </a>
+                <div class="dropdown-menu login-dd dropdown-menu-end">
+                    <a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Profile</a>
+                    <a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="pie-chart"></i> Analytics</a>
+
+                    <a class="dropdown-item" href="index.html"><i class="align-middle me-1" data-feather="settings"></i> Settings & Privacy</a>
+                    <a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="help-circle"></i> Help Center</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Log out</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<ng-template #filter let-modal>
+    <div class="modal-header">
+        <div class="modal-close modal-toggle cross-icon"></div>
+        <h2 class="modal-heading">Filter</h2>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">×</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="modal-content">
+            <div class="filter-box range-slider-box-outer">
+                <div class="d-flex">
+                    <div class="filter-type flex-auto">Duration</div>
+                </div>
+                <div class="range-slider-box">
+                    <input type="text" id="radiusAmount">
+                    <div class="wrap">
+                        <div id="slider"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-box">
+                <div class="d-flex">
+                    <div class="filter-type flex-auto">Intention</div>
+                    <div class="filter-duration flex-auto">Power</div>
+                </div>
+                <div class="radio-btn-box">
+                    <ul class="workout-level-list">
+                        <li>
+                            <div class="form__group mpb-30">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="first-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="first-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Calm
+                                </label>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form__group mpb-30">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="second-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="second-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Energy
+                                </label>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form__group mpb-30">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="third-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="third-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Power
+                                </label>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form__group ">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="fourth-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="fourth-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Vitality
+                                </label>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form__group ">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="fifth-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="fifth-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Rejuvenation
+                                </label>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form__group ">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="six-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="six-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Uplift
+                                </label>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="filter-box">
+                <div class="d-flex">
+                    <div class="filter-type flex-auto">Difficulty</div>
+                    <div class="filter-duration flex-auto">Intermediate</div>
+                </div>
+                <div class="radio-btn-box">
+                    <form action="#">
+                        <div class="d-flex difficulty-box">
+                            <div class="form__group">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="ten-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="ten-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Beginner
+                                </label>
+                                </div>
+                            </div>
+                            <div class="form__group ">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="eleven-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="eleven-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Intermediate
+                                </label>
+                                </div>
+                            </div>
+                            <div class="form__group ">
+                                <div class="form__radio-group">
+                                    <input type="radio" name="size" id="twelve-btn" class="form__radio-input">
+                                    <label class="form__label-radio" for="twelve-btn" class="form__radio-label">
+                                  <span class="form__radio-button"></span> Advanced
+                                </label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="filter-box">
+                <div class="d-flex mobile-block">
+                    <div class="filter-type cancel-btn flex-auto pt-10"> <a href="#" class="">Cancel</a></div>
+                    <div class="filter-duration flex-auto">
+                        <div class="cancel-filters d-inline-block">
+                            <a href="#"><img src="assets/images/cancel-filter-icon.svg" alt=""> Clear Filter </a>
+                        </div>
+                        <div class="Show-results d-inline-block">
+                            <div class="btn-connect-watches">
+                                <a href="#"> <img src="assets/images/btn-arrow.png" alt=""> Show Results</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Ok</button>
+    </div>
+  </ng-template>

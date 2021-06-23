@@ -5,12 +5,14 @@ import { SwiperModule } from 'swiper/angular';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
-import { ModalModule } from 'ngx-bootstrap/modal';
+import { ModalModule,BsModalRef } from 'ngx-bootstrap/modal';
 
 import { AppComponent } from './app.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ExperienceDetailComponent } from './experience-detail/experience-detail.component';
 import { SeriesComponent } from './series/series.component';
+import { HeaderComponent } from './generate/header/header.component';
+import { FooterComponent } from './generate/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,11 @@ import { SeriesComponent } from './series/series.component';
     ExperienceComponent,
     ExperienceDetailComponent,
     SeriesComponent,
+    HeaderComponent,
+    FooterComponent,
+  ],
+  entryComponents: [
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +35,7 @@ import { SeriesComponent } from './series/series.component';
     TooltipModule.forRoot(),
     ModalModule.forRoot()
   ],
-  providers: [Title],
+  providers: [Title,BsModalRef],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
